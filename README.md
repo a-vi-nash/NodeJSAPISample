@@ -3,13 +3,13 @@ Sample Node JS API project with sample routes
 
 
 Step to Run the application:
+1. cd to the downloaded folder(where you have package.json file)
 
-1.Install node js and npm on the machine.
+2. type npm install(this will install all the required repositories files)
 
-2.open cmd and cd to the location of the project.
+3. type node app.js to start the app.
 
-3.enter: npm install commanad which will download all the node dependencies required for the project to run
-
-4.enter: node app.js  to run the application
+you will see a message on the app which says:
+Server listening at port 80
 
 Use POSTMAN or other rest client to test the application.
