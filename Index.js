@@ -3,6 +3,7 @@ var express = require('express')
 var bodyParser = require("body-parser");
 
 var sample = require('./sample/router.js');
+var basic = require('./basic/router.js');
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.all('/*', function (req, res, next) {
 
 //list of api modules with routes linking
 app.use('/sample', sample);
+app.use('/basic',basic);
 
 
 
